@@ -213,18 +213,16 @@ graph TD
 ├── firmware/
 │   ├── src/
 │   │   ├── main.cpp
-│   │   ├── joystick.h
-│   │   ├── emg.h
-│   │   └── bluetooth.h
+│   │   ├── mouse_control.py
+│   │   └── test.py
 │   └── platformio.ini
 ├── hardware/
 │   ├── pcb/
-│   │   ├── gerber/
-│   │   └── schematic/
-│   └── cad/
+│   │   ├── gerbers/
+│   │   └── kicad_files/
+│   └── ar-glasses/ (to be completed)
 ├── software/
-│   ├── keyboard/
-│   └── text-prediction/
-└── docs/
-    └── technical_specifications.md
+    ├── t_complete.py
+    └── t_keyboard.py
+
 ```
